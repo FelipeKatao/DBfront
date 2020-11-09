@@ -1,11 +1,12 @@
-import './App.css';
+import NavComp from './components/NavComp.js'
 
 function App() {
   return (
+    <>
+    <NavComp></NavComp>
     <div className="App">
-      hello  world
-      
       </div>
+      </>
   )
 }
 

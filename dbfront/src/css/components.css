@@ -1,0 +1,12 @@
+nav{
+    position: fixed;
+    background-color: green;
+    color: white;
+    margin-top: -4vh;
+    height: 10vh;
+    width: 100%;
+}
+nav h1{
+    margin-top: 5vh;
+    margin-left: 4vh;
+}
