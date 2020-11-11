@@ -4,7 +4,12 @@ import '../css/components.css'
 function navComp(){
     return (
         <nav>
-            <h1>Consulta de funcionarios</h1>
+            <ul>
+                <li><h3>Banco de dados de funcionarios</h3></li>
+                <li>adicionar</li>
+                <li>Remover</li>
+                <li>Procurar</li>
+            </ul>
         </nav>
     )
 }

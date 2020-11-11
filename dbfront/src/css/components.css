@@ -6,9 +6,15 @@ nav{
     height: 10vh;
     width: 100%;
 }
-nav h1{
+nav ul li {
+    float: left;
+    list-style: none;
     margin-top: 5vh;
-    margin-left: 4vh;
+    padding-left: 4vh;
+}
+nav ul li h3{
+    margin-top: -1vh;
+    margin-left: 1vh;
 }
 
 /*Container de dados*/
@@ -27,6 +33,8 @@ nav h1{
     background-color: #50ac50;
     padding: 1vh;
     margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
 }
 .cardDiv ul li{
     list-style: none;

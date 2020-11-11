@@ -7,12 +7,15 @@ function TableComp(){
 
     const [dataApi,setDataApi] = useState()
 
-    useEffect( async() =>{
+    useEffect(() =>{
+        async function fetchData(){
         const response = await api.get('')
         console.log(response.data)
         console.log(response.data[1][1])
         setDataApi(response.data)
-    },[]) 
+        }
+        fetchData()
+    },[dataApi]) 
 
     return(
         <div className="ContainerTable">
