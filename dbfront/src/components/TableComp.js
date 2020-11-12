@@ -28,8 +28,4 @@ function TableComp(){
     )
 }
 
-//<CardComp nome="Felipe" idade="26" cargo="Analista de sistema"></CardComp>
-//<CardComp nome="Felipe" idade="26" cargo="Analista de sistema"></CardComp>
-//<CardComp nome="Felipe" idade="26" cargo="Analista de sistema"></CardComp>
-
 export default TableComp
