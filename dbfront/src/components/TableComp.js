@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import CardComp from "./CardComp.js"
-import api from "../api/api.js"
+import {api} from "../api/api.js"
 import { useEffect } from 'react'
 
 function TableComp(){

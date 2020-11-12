@@ -40,3 +40,22 @@ nav ul li h3{
     list-style: none;
     color: white;
 }
+/*Form add*/
+.addField{
+    position: absolute;
+    margin-top: 19vh;
+    margin: auto;
+    height: 60vh;
+    width: 140vh;
+    margin-top: 10vh;
+    margin-left: 30vh;
+    background-color: green;
+    
+}
+#addForm{
+    padding: 4vh;
+    color: white;
+}
+#btAdd{
+    margin-left: 12vh;
+}
